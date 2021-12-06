@@ -14,7 +14,7 @@ jobs:
       matrix:
         include:
           ### docker-nginx-brotli
-          - image: '2.176/Dockerfile'
+          - image: 'Dockerfile'
             tags: [ "$ORGA/nginx-brotli:latest", ]
     steps:
       - name: Checkout
